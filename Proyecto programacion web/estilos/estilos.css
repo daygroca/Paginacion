@@ -1,0 +1,45 @@
+.card img.zoomable {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img.zoomable:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #495057;
+    color: #fff;
+}
+.img-categoria {
+    width: 20%;
+    height: 20%;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto; 
+    display: block; 
+}
